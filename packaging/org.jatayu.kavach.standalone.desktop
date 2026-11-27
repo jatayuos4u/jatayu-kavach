@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Jatayu Kavach (Standalone)
+Name[hi]=जटायु कवच (स्टैंडअलोन)
+Comment=Original JatayuOS digital safety dashboard
+Comment[hi]=जटायु ओएस का डिजिटल सुरक्षा डैशबोर्ड
+Exec=jatayu-kavach
+Icon=org.jatayu.kavach.standalone
+Terminal=false
+Categories=Education;
+StartupNotify=true

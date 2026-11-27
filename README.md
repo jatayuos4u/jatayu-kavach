@@ -2,6 +2,8 @@
 
 Kavach is an offline digital safety and scam awareness app for **JatayuOS** and Indian households. Created by **Anup Kumar Yadav**, it uses native **PySide6 / Qt Widgets** and is packaged for **Debian 13** and **KDE Plasma 6**.
 
+![Kavach Report Crime tab](docs/kavach-report-crime.jpg)
+
 ## Inside Kavach
 
 - **Dashboard** with shortcuts to firewall settings, system updates, and backups.
@@ -15,7 +17,21 @@ The app supports English and 22 Indian languages offline. Machine-translated gui
 
 ## Installation
 
-When a package is available on the [Releases page](https://github.com/jatayuos4u/jatayu-kavach/releases), download the `.deb` and open it with your package installer. Then search for **Jatayu Kavach (Standalone)** in the application menu.
+[**Download for JatayuOS (.deb)**](https://github.com/jatayuos4u/jatayu-kavach/releases/download/v0.3.5/jatayu-kavach_0.3.5-1_all.deb)
+
+Open the downloaded package with your package installer, then search for **Jatayu Kavach (Standalone)** in the application menu.
+
+The [v0.3.5 release page](https://github.com/jatayuos4u/jatayu-kavach/releases/tag/v0.3.5) includes `SHA256SUMS` and the complete `jatayu-kavach_0.3.5-1_source.zip`. Use the named archive for the released source. GitHub’s automatic archives for that tag reflect the repository’s initial README commit.
+
+## Build on Debian 13
+
+From a checkout, run the following with Python 3, `dpkg-deb`, and the standard Debian shell utilities available.
+
+```sh
+./build.sh ../kavach-packages
+```
+
+The script validates the language catalogs and writes `../kavach-packages/jatayu-kavach_0.3.5-1_all.deb`. The package declares its PySide6 and font runtime dependencies. The standalone app has a separate desktop entry from the Kavach app bundled with JatayuOS.
 
 ## Disclaimer
 
@@ -23,6 +39,6 @@ Kavach is an independent educational app. It cannot verify whether a message or 
 
 ## Licence and credits
 
-Kavach software is licensed under **GPL-3.0-or-later**. The JatayuOS name and icon have separate branding terms. Preview translations use AI4Bharat IndicTrans2, and the practice illustrations were created with OpenAI ImageGen.
+Kavach software is licensed under [GPL-3.0-or-later](LICENSE). The JatayuOS name and icon have separate branding terms. Preview translations use AI4Bharat IndicTrans2, and the practice illustrations were created with OpenAI ImageGen.
 
 [Official JatayuOS website](https://jatayuos.in/)

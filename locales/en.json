@@ -1,0 +1,822 @@
+{
+  "_ui": {
+    "action": "🚨 If You've Been Scammed:",
+    "close": "Close",
+    "details": "Click for details →",
+    "flags": "🚩 Red Flags - Warning Signs",
+    "high": "HIGH RISK",
+    "howLong": "⚠️ How This Scam Works",
+    "howShort": "⚠️ How It Works",
+    "low": "LOW RISK",
+    "medium": "MEDIUM RISK",
+    "numbers": "Emergency Numbers:",
+    "passwordHelp": "🔐 Password Security Tips\n\n• Use 12+ characters with mixed case, numbers, symbols\n• Never reuse passwords across accounts\n• Use KeePassXC as a password manager\n• Enable 2FA on all important accounts\n• Replace exposed passwords promptly\n• Never write passwords in plain text",
+    "prevention": "🛡️ Prevention Tips",
+    "privacyHelp": "🔒 Privacy Settings\n\nKavach stores your checklist and language choice on this device. Official links open in your browser.",
+    "progress": "{done} of {total} completed ({percent}%)",
+    "targets": "🎯 Common Targets"
+  },
+  "bankAction": "Open your bank’s official app or use an address you’ve verified with the bank. Treat .bank.in as one clue.",
+  "bankExample": "Read the full website address. For example, a bank’s domain could be yourbank.bank.in.",
+  "bankIntro": "The RBI introduced .bank.in for Indian banks.",
+  "bankLookalike": "In yourbank.bank.in.example.com, the actual domain is example.com. Seeing bank.in somewhere in the address does not verify the site.",
+  "bankTitle": "Check Your Bank’s Website",
+  "checklist": "📋 Security Checklist",
+  "copy0": "Kavach - Your Digital Shield",
+  "copy1": "🚨 Emergency: 1930",
+  "copy10": "Open settings",
+  "copy100": "Step 2: Contact Your Bank",
+  "copy101": "Call bank's fraud department immediately",
+  "copy102": "Freeze compromised cards/accounts",
+  "copy103": "Request transaction reversal",
+  "copy104": "Get written acknowledgment",
+  "copy105": "Change net banking password",
+  "copy106": "Step 3: File Online Complaint",
+  "copy107": "Visit",
+  "copy108": "cybercrime.gov.in",
+  "copy109": "Register with mobile number",
+  "copy11": "Firewall Protection",
+  "copy110": "File detailed complaint with evidence",
+  "copy111": "Upload screenshots, SMS, call logs",
+  "copy112": "Track status using ACK number",
+  "copy113": "Step 4: Visit Police Station",
+  "copy114": "Visit local police/Cyber Cell",
+  "copy115": "Carry printed complaint + evidence",
+  "copy116": "Ask the police how to file your complaint and whether an FIR is appropriate.",
+  "copy117": "Collect FIR copy for bank/insurance",
+  "copy118": "Follow up regularly",
+  "copy119": "📄 Documents to Keep Ready",
+  "copy12": "Open KDE Firewall to check and manage UFW protection.",
+  "copy120": "Bank account statement showing fraudulent transaction",
+  "copy121": "Screenshots of suspicious SMS/emails/WhatsApp",
+  "copy122": "Call logs with scammer's number",
+  "copy123": "Transaction reference numbers (UTR/RR Number)",
+  "copy124": "Aadhaar/PAN card (for identity verification)",
+  "copy125": "Any communication with the scammer",
+  "copy126": "Scam Details",
+  "copy127": "Kavach - कवच",
+  "copy128": "| Your Digital Shield",
+  "copy129": "Stay informed. Stay safe. Stay secure.",
+  "copy13": "Manage Firewall",
+  "copy130": "cybercrime.gov.in",
+  "copy131": "RBI Awareness",
+  "copy132": "Sanchar Saathi",
+  "copy133": "© 2026 Kavach - JatayuOS | Built with 🛡️ for Bharat",
+  "copy134": "JatayuOS 1.0 (Udaan) - Official website",
+  "copy14": "⏳ Check",
+  "copy15": "System Updates",
+  "copy16": "Keep your OS and apps updated to patch security vulnerabilities.",
+  "copy17": "Check Updates",
+  "copy18": "Password Tips",
+  "copy19": "Password Security",
+  "copy2": "🚨 Cyber Crime? Call NOW",
+  "copy20": "Use unique passwords for every account. Never share OTP with anyone.",
+  "copy21": "Password Tips",
+  "copy22": "Review backup",
+  "copy23": "Backup Status",
+  "copy24": "Regular backups protect against ransomware and data loss.",
+  "copy25": "Setup Backup",
+  "copy26": "⚠ Alert",
+  "copy27": "Phishing Protection",
+  "copy28": "Stay alert to fake emails, SMS, and calls impersonating banks/govt.",
+  "copy29": "View Scam Alerts",
+  "copy3": "Report financial cyber fraud as soon as possible",
+  "copy30": "Privacy tips",
+  "copy31": "Privacy Mode",
+  "copy32": "Your checklist progress and language choice are stored on this device.",
+  "copy33": "Privacy Settings",
+  "copy34": "⚠️ Common Indian Scams",
+  "copy35": "Learn how scammers operate and how to protect yourself. Click any scam for detailed information.",
+  "copy36": "Password Safety",
+  "copy37": "Use 12+ character passwords with mixed case, numbers, symbols",
+  "copy38": "Never reuse passwords across accounts",
+  "copy39": "Enable 2-Factor Authentication (2FA) everywhere",
+  "copy4": "Cyber Crime",
+  "copy40": "Use a password manager like KeePassXC",
+  "copy41": "Never write passwords in notebooks or phone notes",
+  "copy42": "UPI",
+  "copy43": "Payment Safety",
+  "copy44": "NEVER enter UPI PIN to RECEIVE money",
+  "copy45": "Verify recipient name before sending",
+  "copy46": "Use only official apps (BHIM, GPay, PhonePe, Paytm)",
+  "copy47": "Don't scan QR codes from strangers",
+  "copy48": "Enable transaction alerts on your bank",
+  "copy49": "Call",
+  "copy5": "Emergency",
+  "copy50": "SMS Safety",
+  "copy51": "Bank will NEVER call asking for OTP/PIN/CVV",
+  "copy52": "Police/CBI will NEVER call for \"digital arrest\"",
+  "copy53": "Verify caller ID independently (search official number)",
+  "copy54": "Don't install AnyDesk/TeamViewer on caller's advice",
+  "copy55": "Hang up on suspicious calls immediately",
+  "copy56": "Internet Safety",
+  "copy57": "Check for HTTPS (🔒) before entering data",
+  "copy58": "Don't click suspicious links in SMS/email",
+  "copy59": "Avoid public Wi-Fi for banking",
+  "copy6": "🏦 Contact your bank",
+  "copy60": "Keep browser and OS updated",
+  "copy61": "Use ad-blockers to avoid malvertising",
+  "copy62": "Email Safety",
+  "copy63": "Check sender email carefully (look for misspellings)",
+  "copy64": "Don't open attachments from unknown senders",
+  "copy65": "Beware of \"urgent\" or \"threatening\" language",
+  "copy66": "Never click \"unsubscribe\" in spam emails",
+  "copy67": "Verify lottery or prize claims through an official channel.",
+  "copy68": "App Safety",
+  "copy69": "Download apps only from official stores",
+  "copy7": "Use an official number",
+  "copy70": "Check app permissions before installing",
+  "copy71": "Read reviews and download count",
+  "copy72": "Avoid \"instant loan\" apps with high interest",
+  "copy73": "Uninstall apps you don't use regularly",
+  "copy74": "Identity Protection",
+  "copy75": "Don't share Aadhaar/PAN photos on social media",
+  "copy76": "Lock your Aadhaar biometrics on UIDAI portal",
+  "copy77": "Shred documents with personal info before discarding",
+  "copy78": "Monitor your credit report annually (CIBIL)",
+  "copy79": "Report lost ID documents immediately",
+  "copy8": "🛡️ Your Security Status",
+  "copy80": "Family Safety",
+  "copy81": "Educate elderly family about phone scams",
+  "copy82": "Set up parental controls for children",
+  "copy83": "Teach kids not to share personal info online",
+  "copy84": "Monitor children's social media activity",
+  "copy85": "Create family emergency plan for cyber incidents",
+  "copy86": "📋 Your Security Checklist",
+  "copy87": "Complete these steps to secure your digital life",
+  "copy88": "0 of 12 completed (0%)",
+  "copy89": "📞 Report Cyber Crime",
+  "copy9": "Monitor and protect your system with one click",
+  "copy90": "If you've lost money to cyber fraud, report it as soon as possible.",
+  "copy91": "⏰ Report promptly",
+  "copy92": "Prompt reporting can help authorities respond.",
+  "copy93": "Step 1: Call Immediately",
+  "copy94": "- Financial Cyber Fraud Helpline",
+  "copy95": "- National Emergency",
+  "copy96": "Bank fraud",
+  "copy97": "- Contact your bank through its official app or the number on your card",
+  "copy98": "Have transaction details ready",
+  "copy99": "Note the complaint reference number",
+  "dashboard": "🛡️ Dashboard",
+  "report": "📞 Report Crime",
+  "safeDescription": "Follow these golden rules to stay safe online",
+  "safeTitle": "✅ Safe Digital Practices",
+  "scams": "⚠️ Scam Alerts",
+  "tips": "✅ Safe Practices",
+  "_scams": {
+    "kyc": {
+      "name": "KYC Update Scam",
+      "howItWorks": "Scammers call/SMS claiming your KYC is expired. They send fake links that look like bank/government websites. When you enter details, they steal your credentials and empty your account.",
+      "targets": [
+        "Bank customers",
+        "Aadhaar holders",
+        "PAN card holders"
+      ],
+      "redFlags": [
+        "Unsolicited call/SMS about KYC expiry",
+        "A link in a message asking you to verify KYC urgently",
+        "Urgency language - \"Account will be blocked\"",
+        "Asking for OTP, PIN, or CVV",
+        "URLs like \"sbi-kyc-update.com\" (fake)"
+      ],
+      "prevention": [
+        "NEVER click links in SMS for KYC",
+        "Visit bank branch or official website directly",
+        "KYC updates are FREE - never pay for it",
+        "Bank will never ask for OTP to update KYC",
+        "Verify by calling bank on official number"
+      ],
+      "action": "If scammed: Call 1930 immediately, then contact bank to freeze account. File complaint at cybercrime.gov.in as soon as possible."
+    },
+    "anydesk": {
+      "name": "Remote Access Scam",
+      "howItWorks": "Scammer poses as bank/tech support. Claims your account is compromised. Asks you to install AnyDesk, TeamViewer, or QuickSupport. Once they access your screen, they see your banking details and transfer money.",
+      "targets": [
+        "Elderly people",
+        "Bank customers",
+        "Small business owners"
+      ],
+      "redFlags": [
+        "Call asking to install remote software",
+        "Claiming to be from bank/SBI/HDFC/tech support",
+        "Saying your account is hacked/compromised",
+        "Asking you to open banking websites",
+        "Speaking in panic/urgent tone"
+      ],
+      "prevention": [
+        "NEVER install AnyDesk/TeamViewer on anyone's advice",
+        "Bank employees NEVER call to ask this",
+        "Never share screen with strangers",
+        "Hang up immediately if asked to install software",
+        "If installed, uninstall immediately and change all passwords"
+      ],
+      "action": "If scammed: Uninstall remote app immediately. Disconnect internet. Call 1930 and bank. Change all passwords from a different device."
+    },
+    "digital-arrest": {
+      "name": "Digital Arrest Scam",
+      "howItWorks": "Scammer poses as CBI/Police/Customs officer. Claims you're involved in money laundering/drug racket. Asks you to join video call, \"verify\" by showing ID, and transfer money to \"verification account\". Can last for days/weeks.",
+      "targets": [
+        "All citizens",
+        "NRIs",
+        "Elderly people"
+      ],
+      "redFlags": [
+        "Police/CBI NEVER do \"digital arrest\"",
+        "No government agency asks for money via video call",
+        "Fake IDs/uniforms shown on video",
+        "Asking to keep it \"secret\" from family",
+        "Threatening immediate arrest if you don't comply"
+      ],
+      "prevention": [
+        "Police/CBI/ED NEVER call for digital arrest",
+        "No govt agency asks for money transfer",
+        "Never share video call with \"officers\"",
+        "End the call and verify the claim using an independently sourced official number",
+        "Tell family immediately - scammers isolate victims"
+      ],
+      "action": "If scammed: Call 1930 immediately. This is a MAJOR crime. File FIR at local police station. Contact bank to reverse transactions."
+    },
+    "upi-pin": {
+      "name": "UPI PIN Scam",
+      "howItWorks": "Scammer says they'll SEND you money. Asks you to scan QR code or enter UPI PIN to \"receive\" payment. In reality, entering PIN authorizes money going OUT of your account.",
+      "targets": [
+        "UPI users",
+        "Mobile payment users"
+      ],
+      "redFlags": [
+        "Asking for UPI PIN to RECEIVE money",
+        "QR code scanning to get payment",
+        "\"Enter PIN to verify your account\"",
+        "Claims money will be doubled/refunded",
+        "Any request for PIN when receiving money"
+      ],
+      "prevention": [
+        "UPI PIN is ONLY for SENDING money",
+        "NEVER enter PIN to receive payment",
+        "To receive: only share UPI ID/phone number",
+        "Verify recipient name before entering PIN",
+        "No bank/officer ever asks for UPI PIN"
+      ],
+      "action": "If scammed: Call 1930 as soon as possible. Contact bank. File complaint on cybercrime.gov.in. Check if money can be reversed via NPCI."
+    },
+    "lottery": {
+      "name": "Lottery/Prize Scam",
+      "howItWorks": "You receive email/call claiming you won a lottery (KBC, international lottery, etc.). To claim prize, you must pay \"processing fee\", \"tax\", or \"customs duty\". After payment, more demands come. You never receive any prize.",
+      "targets": [
+        "All citizens",
+        "Elderly people"
+      ],
+      "redFlags": [
+        "You won a lottery you never entered",
+        "Asking for upfront fee to claim prize",
+        "Emails from Gmail/Yahoo (not official)",
+        "Urgency to claim \"within 24 hours\"",
+        "Requests for personal/bank details"
+      ],
+      "prevention": [
+        "Real lotteries NEVER ask for fees",
+        "If you didn't buy a ticket, you can't win",
+        "KBC and similar shows have official processes",
+        "International lotteries are ILLEGAL in India",
+        "Delete such emails immediately"
+      ],
+      "action": "If you paid: report at cybercrime.gov.in and contact your bank immediately."
+    },
+    "sim-swap": {
+      "name": "SIM Swap Scam",
+      "howItWorks": "Scammer tricks telecom operator into transferring your number to their SIM. They receive all your OTPs and take over bank accounts, crypto wallets, and other 2FA-protected accounts.",
+      "targets": [
+        "Banking users",
+        "Crypto investors",
+        "High-net-worth individuals"
+      ],
+      "redFlags": [
+        "Sudden loss of mobile network",
+        "Unable to receive calls/SMS",
+        "Notifications of SIM change you didn't request",
+        "Unusual activity on bank accounts",
+        "Locked out of online accounts"
+      ],
+      "prevention": [
+        "Set SIM lock PIN with telecom operator",
+        "Never share OTP with anyone",
+        "Use authenticator apps instead of SMS 2FA",
+        "Monitor account activity regularly",
+        "Contact telecom immediately if network drops"
+      ],
+      "action": "If scammed: Call telecom operator IMMEDIATELY. Contact bank to freeze accounts. File police complaint. Change all passwords."
+    },
+    "fake-customer": {
+      "name": "Fake Customer Care",
+      "howItWorks": "Google search shows fake customer care numbers for banks, Amazon, Flipkart, etc. When you call, scammer poses as executive, asks for details/OTP, and empties your account.",
+      "targets": [
+        "Online shoppers",
+        "Banking customers",
+        "All service users"
+      ],
+      "redFlags": [
+        "Numbers found via Google (not official website)",
+        "Numbers starting with mobile prefixes",
+        "Executive asking for card details/OTP",
+        "Promising instant refund after sharing details",
+        "Pressure tactics and urgency"
+      ],
+      "prevention": [
+        "ONLY use numbers from official websites/apps",
+        "Bank numbers are on the back of your card",
+        "Customer care NEVER asks for OTP/PIN/CVV",
+        "Bookmark official customer care pages",
+        "Verify number before calling"
+      ],
+      "action": "If scammed: Call 1930. Contact official bank customer care. File cybercrime complaint. Report fake number to Google."
+    },
+    "investment": {
+      "name": "Fake Investment Scam",
+      "howItWorks": "Fake trading apps/platforms promise guaranteed high returns (10-30% monthly). Show fake profits on app. When you try to withdraw, they ask for \"tax\" or \"fees\". Eventually, the app disappears with your money.",
+      "targets": [
+        "Investors",
+        "Young professionals",
+        "Middle-class families"
+      ],
+      "redFlags": [
+        "Guaranteed high returns (impossible)",
+        "Apps not on Play Store/App Store",
+        "Pressure to invest more to \"unlock\" profits",
+        "No SEBI registration number",
+        "Telegram/WhatsApp groups pushing investments"
+      ],
+      "prevention": [
+        "Check SEBI registration before investing",
+        "No investment guarantees 10%+ monthly",
+        "Only use registered brokers (Zerodha, Groww, etc.)",
+        "Research company thoroughly before investing",
+        "If it sounds too good, it IS a scam"
+      ],
+      "action": "If scammed: Report to SEBI (scores.gov.in). File FIR with Economic Offences Wing. Report at cybercrime.gov.in. Contact bank."
+    },
+    "job": {
+      "name": "Job/Work-from-Home Scam",
+      "howItWorks": "Fake job offers for data entry, typing work, or \"like YouTube videos\". Ask for \"registration fee\" or \"security deposit\". After payment, either no work comes or impossible tasks are given. Money is never refunded.",
+      "targets": [
+        "Job seekers",
+        "Students",
+        "Housewives"
+      ],
+      "redFlags": [
+        "Asking for money to get a job",
+        "Too-good salaries for simple work",
+        "No company website or physical address",
+        "Communication only via WhatsApp/Telegram",
+        "Promises of earning ₹50,000+ monthly easily"
+      ],
+      "prevention": [
+        "Real jobs NEVER ask for money",
+        "Verify company on LinkedIn/official website",
+        "Check reviews on Glassdoor/Indeed",
+        "Never pay \"registration\" or \"training\" fees",
+        "Be wary of unsolicited job offers"
+      ],
+      "action": "If scammed: File complaint at cybercrime.gov.in. Report on LinkedIn. Contact bank for chargeback if paid by card."
+    },
+    "loan-app": {
+      "name": "Illegal Loan App",
+      "howItWorks": "Fake loan apps offer instant loans without documentation. They access your contacts/photos. When you default, they harass you and your contacts with morphed photos, threats, and humiliation. Interest rates are 300%+ annually.",
+      "targets": [
+        "People in financial need",
+        "Young adults"
+      ],
+      "redFlags": [
+        "Apps not on official Play Store",
+        "Asking for excessive permissions (contacts, gallery)",
+        "No RBI registration",
+        "Hidden charges and extremely high interest",
+        "Instant approval without credit check"
+      ],
+      "prevention": [
+        "Verify the lender through its official channels",
+        "Check app permissions before installing",
+        "Read terms carefully - look for hidden fees",
+        "Verify lender on RBI website",
+        "Avoid apps with <10,000 downloads"
+      ],
+      "action": "If you are threatened, preserve evidence and contact the local police or report at cybercrime.gov.in."
+    },
+    "qr-code": {
+      "name": "QR Code Payment Scam",
+      "howItWorks": "A scammer poses as a buyer and sends a QR code, saying to scan it to receive money. Confirming a payment request may send money from your account. Someone may also replace a shop’s QR sticker to redirect payments.",
+      "targets": [
+        "UPI users",
+        "Small shop owners",
+        "Online sellers"
+      ],
+      "redFlags": [
+        "QR code to RECEIVE money (never needed)",
+        "Buyer sending QR instead of scanning yours",
+        "Tampered QR codes at shops",
+        "Requests to scan multiple times",
+        "QR codes on unstuck stickers"
+      ],
+      "prevention": [
+        "To receive money: only share UPI ID/number",
+        "NEVER scan QR to receive payment",
+        "Verify QR code at shops before scanning",
+        "Check merchant name before entering PIN",
+        "Use official payment apps only"
+      ],
+      "action": "If scammed: Call 1930 immediately. Contact bank. File cybercrime complaint. Report to UPI app provider."
+    },
+    "matrimonial": {
+      "name": "Matrimonial Scam",
+      "howItWorks": "Fake profiles on matrimonial sites. Build emotional connection over weeks. Then create emergency (medical, visa, business) and ask for money. Once money is sent, profile disappears.",
+      "targets": [
+        "Singles looking for marriage",
+        "NRIs",
+        "Divorced/widowed"
+      ],
+      "redFlags": [
+        "Too perfect profile/photos",
+        "Quick declarations of love",
+        "Requests for money for emergencies",
+        "Refusing video calls/meetings",
+        "Stories of being stuck abroad"
+      ],
+      "prevention": [
+        "Never send money to online matches",
+        "Verify identity through video calls",
+        "Meet in public places before sharing details",
+        "Check profile on multiple platforms",
+        "Inform family about online relationships"
+      ],
+      "action": "If scammed: Report on matrimonial site. File FIR. Cybercrime complaint. Preserve all chat records as evidence."
+    },
+    "delivery": {
+      "name": "Fake Delivery/Customs Scam",
+      "howItWorks": "SMS/email about package stuck at customs. Fake link asks for \"customs duty\" or \"delivery fee\". Payment goes to scammer. Or fake delivery person asks for OTP to \"verify\" delivery.",
+      "targets": [
+        "Online shoppers",
+        "International package recipients"
+      ],
+      "redFlags": [
+        "Unexpected package notifications",
+        "Links in SMS for customs payment",
+        "Delivery asking for OTP",
+        "Payment requests to personal UPI IDs",
+        "Poor grammar in official-looking messages"
+      ],
+      "prevention": [
+        "Track packages only on official courier sites",
+        "Customs duty is paid at official counters only",
+        "Never share a banking OTP with a courier",
+        "Verify sender before paying anything",
+        "Check tracking on official websites"
+      ],
+      "action": "If scammed: Contact courier company. File cybercrime complaint. Report to payment platform. File police complaint."
+    },
+    "crypto": {
+      "name": "Crypto/Forex Scam",
+      "howItWorks": "Fake crypto exchanges or \"mentors\" on Telegram/YouTube promise huge returns. Show fake profits. When you try to withdraw, they demand \"tax\" or \"fees\". Crypto is hard to trace and recover.",
+      "targets": [
+        "Young investors",
+        "Tech-savvy people"
+      ],
+      "redFlags": [
+        "Guaranteed returns in crypto",
+        "\"Mentors\" on Telegram/YouTube",
+        "An exchange whose identity you cannot independently verify",
+        "Pressure to invest more quickly",
+        "Requests to send crypto to \"verify\" wallet"
+      ],
+      "prevention": [
+        "Independently verify the exchange and understand the risks",
+        "No one can guarantee crypto profits",
+        "Crypto trading is risky - do your research",
+        "Beware of \"pump and dump\" schemes",
+        "Never share private keys with anyone"
+      ],
+      "action": "If scammed: Report to exchange. File cybercrime complaint. Note: Crypto recovery is difficult - prevention is key."
+    },
+    "otp-phishing": {
+      "name": "OTP Phishing",
+      "howItWorks": "Scammer calls claiming to be from bank/OTP verification. Asks you to share OTP received on phone. Uses OTP to authorize transactions, change passwords, or take over accounts.",
+      "targets": [
+        "All mobile users",
+        "Banking customers"
+      ],
+      "redFlags": [
+        "Anyone asking for OTP",
+        "Calls claiming to verify your identity",
+        "Messages with urgent OTP requests",
+        "Bank \"executives\" asking for OTP",
+        "Requests to read OTP aloud"
+      ],
+      "prevention": [
+        "NEVER share OTP with ANYONE",
+        "OTP is like your password - keep it secret",
+        "Bank will never ask for OTP",
+        "If in doubt, hang up and call official number",
+        "Enable OTP via app instead of SMS where possible"
+      ],
+      "action": "If shared OTP: Call bank IMMEDIATELY. Freeze account. Call 1930. Change all passwords. File cybercrime complaint."
+    }
+  },
+  "_checklist": [
+    {
+      "title": "Enable Firewall",
+      "desc": "Turn on UFW firewall to block unauthorized access"
+    },
+    {
+      "title": "Update System",
+      "desc": "Install all pending OS and app updates"
+    },
+    {
+      "title": "Strong Passwords",
+      "desc": "Use 12+ character unique passwords for all accounts"
+    },
+    {
+      "title": "Enable 2FA",
+      "desc": "Turn on two-factor authentication for email, banking, social media"
+    },
+    {
+      "title": "Backup Data",
+      "desc": "Setup automatic backup of important files"
+    },
+    {
+      "title": "Lock Aadhaar Biometrics",
+      "desc": "Visit uidai.gov.in to lock/unlock Aadhaar biometrics"
+    },
+    {
+      "title": "Check Bank Alerts",
+      "desc": "Enable SMS/email alerts for all transactions"
+    },
+    {
+      "title": "Review App Permissions",
+      "desc": "Check and revoke unnecessary app permissions"
+    },
+    {
+      "title": "Scan for Malware",
+      "desc": "Run antivirus scan on your system"
+    },
+    {
+      "title": "Secure Wi-Fi",
+      "desc": "Use WPA3/WPA2 encryption, change default router password"
+    },
+    {
+      "title": "Check Credit Report",
+      "desc": "Review CIBIL report annually for suspicious activity"
+    },
+    {
+      "title": "Educate Family",
+      "desc": "Teach family members about common scams"
+    }
+  ],
+  "_native": {
+    "opening": "Opening the security dashboard…",
+    "waiting": "Kavach is taking longer than expected to open…",
+    "failure": "Kavach could not open the dashboard. Close this window and try again.",
+    "dial": "Dial {number} from your phone.",
+    "browser": "Open this address in your browser:",
+    "shortcut": "This shortcut requires the corresponding JatayuOS or KDE tool.",
+    "ok": "OK",
+    "windowTitle": "Kavach · JatayuOS",
+    "language": "Language"
+  },
+  "_meta": {
+    "label": "English",
+    "direction": "ltr"
+  },
+  "learnTab": "Check & Learn",
+  "learnIntro": "Practise with fictional examples and see what to check before you act.",
+  "learnSearch": "Search practice exercises",
+  "learnNoResults": "No exercises match. Try QR, payment, or bank.",
+  "learnQrTitle": "A buyer sends you a QR code",
+  "learnFictional": "Fictional message",
+  "learnQrMessage": "Scan this QR code to receive your payment.",
+  "learnReveal": "Show the warning sign",
+  "learnQrWarning": "Be cautious when a buyer asks you to scan their code to receive money. You do not need to enter a UPI PIN to receive a payment.",
+  "learnQrQuestion": "How would you verify the payment?",
+  "learnQrSafe": "Open my own UPI app and check my transaction history.",
+  "learnQrRisky": "Scan the buyer’s QR code and enter my UPI PIN.",
+  "learnQrCorrect": "Correct. Check for an incoming payment in your own app before handing over the item.",
+  "learnQrRetry": "Try again. Entering your PIN to confirm a payment can send money from your account.",
+  "learnBankTitle": "A banking link looks familiar",
+  "learnFictionalAddress": "Fictional address",
+  "learnBankWarningLead": "The real domain in this example is",
+  "learnBankWarningTail": "The bank-like part is a subdomain. Check the complete address before trusting a link.",
+  "learnBankQuestion": "How would you open your bank safely?",
+  "learnBankRisky": "Use the link because the address contains the bank’s name.",
+  "learnBankSafe": "Open my bank’s official app or use an address I verified with the bank.",
+  "learnBankCorrect": "Correct. Use a route you already trust. A familiar name in a link cannot verify who runs the website.",
+  "learnBankRetry": "Try again. A familiar name in an address can be placed before a different domain.",
+  "learnReport": "Already lost money? Open Report Crime",
+  "learnCategory": "Filter by topic",
+  "learnAll": "All topics",
+  "learnQuestion": "What would you do?",
+  "learnRight": "Correct.",
+  "learnTryAgain": "Try again.",
+  "learnPayments": "UPI and payments",
+  "learnMessages": "Messages and banking links",
+  "learnIdentity": "Impersonation",
+  "learnOffers": "Jobs, loans and offers",
+  "learnDevices": "Devices and accounts",
+  "learnResponse": "After an incident",
+  "_learn": {
+    "collect": {
+      "title": "Unexpected UPI request",
+      "sample": "A stranger sends a collect request and says approval will release your refund.",
+      "safe": "Decline the request and verify the refund in the official app.",
+      "risky": "Approve the request to unlock the refund.",
+      "lesson": "Approving a collect request can send money from your account."
+    },
+    "cashback": {
+      "title": "Cashback that asks for a fee",
+      "sample": "A message promises a reward after you make a small payment.",
+      "safe": "Check the offer inside the official app.",
+      "risky": "Pay the fee to claim the reward.",
+      "lesson": "A promised reward is no reason to pay a stranger or enter your PIN."
+    },
+    "receipt": {
+      "title": "A buyer shares a payment screenshot",
+      "sample": "The buyer shows a receipt, but your app has no matching incoming transaction.",
+      "safe": "Check your own transaction history before handing over the item.",
+      "risky": "Accept the screenshot as proof and hand over the item.",
+      "lesson": "A screenshot can be edited. Confirm the payment independently."
+    },
+    "sticker": {
+      "title": "A shop QR sticker looks replaced",
+      "sample": "A sticker is pasted over the payment code at a shop counter.",
+      "safe": "Ask the shopkeeper to confirm the payee and check the name before paying.",
+      "risky": "Pay as soon as any name appears on screen.",
+      "lesson": "A replaced sticker can redirect the payment. Check the payee and amount."
+    },
+    "refund": {
+      "title": "A refund agent asks for card details",
+      "sample": "A caller says they need your card PIN and security code to process a refund.",
+      "safe": "End the call and contact the merchant through its official app.",
+      "risky": "Read out your card PIN and security code.",
+      "lesson": "Refund promises can be used to collect payment credentials. Keep your PIN private."
+    },
+    "kyc": {
+      "title": "A text threatens to block your bank account",
+      "sample": "The message says your KYC has expired and demands an immediate update through a link.",
+      "safe": "Open your bank’s official app or call a verified bank number.",
+      "risky": "Open the message link and fill in whatever it asks for.",
+      "lesson": "A deadline and an unverified link are reasons to check the request independently."
+    },
+    "family": {
+      "title": "A relative texts from a new number",
+      "sample": "The sender claims to be your relative, asks for money, and says not to call.",
+      "safe": "Call the relative on their known number before paying.",
+      "risky": "Send money quickly because the message sounds urgent.",
+      "lesson": "An urgent message is not identity verification. Use a contact you already trust."
+    },
+    "parcel": {
+      "title": "An unexpected delivery fee",
+      "sample": "A text claims your parcel is held and demands a small fee through an unknown link.",
+      "safe": "Check tracking using the courier’s official site or app.",
+      "risky": "Pay using the link before the parcel is returned.",
+      "lesson": "Look up the parcel independently and confirm any fee with the courier."
+    },
+    "attach": {
+      "title": "An invoice attachment you weren’t expecting",
+      "sample": "An unfamiliar sender urges you to open an attached invoice today.",
+      "safe": "Confirm with the supposed sender using a known contact.",
+      "risky": "Open the attachment to discover what the invoice is for.",
+      "lesson": "Unexpected attachments can contain harmful files. Verify before opening."
+    },
+    "otp": {
+      "title": "A caller asks for an OTP",
+      "sample": "Someone claiming to be from the bank asks you to read the code on your phone.",
+      "safe": "Keep the OTP private and call the bank using its official number.",
+      "risky": "Read out the OTP to prove your identity.",
+      "lesson": "A code can approve a transaction or login. Never share it with an unsolicited caller."
+    },
+    "arrest": {
+      "title": "A video caller claims you are under arrest",
+      "sample": "A caller in uniform tells you to stay on video and transfer money for verification.",
+      "safe": "End the call and independently contact the relevant authority.",
+      "risky": "Stay on the call and pay to clear the case.",
+      "lesson": "Threats and demands for money are warning signs. Verify through an official number you find independently."
+    },
+    "electric": {
+      "title": "A message threatens to cut your power",
+      "sample": "A stranger says your electricity will be disconnected unless you pay using their link.",
+      "safe": "Check your bill directly with your electricity provider.",
+      "risky": "Use the message link to stop the disconnection.",
+      "lesson": "Check the bill in a channel you already know instead of following an unexpected link."
+    },
+    "subsidy": {
+      "title": "An unexpected government benefit",
+      "sample": "A message promises a subsidy if you share your Aadhaar OTP.",
+      "safe": "Check the scheme through its official portal without sharing the OTP.",
+      "risky": "Send the OTP so the subsidy can be released.",
+      "lesson": "An unsolicited request for an Aadhaar OTP may put your information at risk."
+    },
+    "customs": {
+      "title": "A caller demands a customs payment",
+      "sample": "A caller claims a parcel in your name is detained and asks for payment to a personal account.",
+      "safe": "Verify through official courier or authority channels first.",
+      "risky": "Transfer the money to the account the caller gives you.",
+      "lesson": "An accusation plus a personal payment request warrants independent verification."
+    },
+    "job": {
+      "title": "A recruiter charges a registration fee",
+      "sample": "A recruiter promises a guaranteed interview after you pay a personal account.",
+      "safe": "Find the vacancy through the employer’s official careers page.",
+      "risky": "Pay the registration fee before you lose the interview slot.",
+      "lesson": "Verify the employer and vacancy before paying or sharing documents."
+    },
+    "tasks": {
+      "title": "A task group demands a larger deposit",
+      "sample": "A group pays for a small online task, then asks for a deposit to unlock bigger earnings.",
+      "safe": "Stop paying and verify the business independently.",
+      "risky": "Send a bigger deposit because the first task paid out.",
+      "lesson": "An early payout can build trust. It does not establish that a later deposit is safe."
+    },
+    "invest": {
+      "title": "A group guarantees high investment returns",
+      "sample": "A messaging group claims to represent a registered adviser and guarantees profits.",
+      "safe": "Verify the intermediary independently before acting.",
+      "risky": "Transfer money based on the group’s screenshots.",
+      "lesson": "A name or registration claim in a chat is not verification. Check through official channels."
+    },
+    "loan": {
+      "title": "A loan app wants access to your contacts",
+      "sample": "An unfamiliar lender asks for contacts and photos to release a loan.",
+      "safe": "Verify the lender and stop if the permissions are unnecessary.",
+      "risky": "Allow all permissions to speed up the loan.",
+      "lesson": "Check that the lender is genuine and that access is necessary before sharing data."
+    },
+    "prize": {
+      "title": "An unexpected prize requires a fee",
+      "sample": "A caller says you won a contest you did not enter and asks for a processing fee.",
+      "safe": "Verify with the organiser through an official channel.",
+      "risky": "Pay the fee to claim the prize.",
+      "lesson": "Unsolicited prizes and advance fees are a warning sign. Do not pay based on the call."
+    },
+    "remote": {
+      "title": "A support agent wants to control your screen",
+      "sample": "A caller asks you to install a screen-sharing app and open your banking app.",
+      "safe": "End the call and contact support through its official channel.",
+      "risky": "Grant screen access while entering your banking details.",
+      "lesson": "Remote access can expose what you do and type. Verify independently before granting it."
+    },
+    "apk": {
+      "title": "A message offers an app update file",
+      "sample": "A message asks you to install a file to continue using a service.",
+      "safe": "Update through the official store or trusted system updater.",
+      "risky": "Install the file sent in the message.",
+      "lesson": "An unsolicited installer can be unsafe. Use a trusted update route."
+    },
+    "sim": {
+      "title": "Phone service disappears after a SIM-change message",
+      "sample": "You stop receiving calls after a SIM-change notification you did not request.",
+      "safe": "Contact your mobile operator through a verified channel from another phone.",
+      "risky": "Wait and give any caller your account codes to restore service.",
+      "lesson": "Ask your operator to check for an unauthorised SIM change and check for suspicious account activity."
+    },
+    "backup": {
+      "title": "A pop-up offers to repair all your files",
+      "sample": "A pop-up demands that you install software to restore files.",
+      "safe": "Close it and use your trusted backup or support tools.",
+      "risky": "Install the repair tool from the pop-up.",
+      "lesson": "Verify the problem and use a backup you control. Avoid software offered through unfamiliar pop-ups."
+    },
+    "account": {
+      "title": "You entered a password on a suspicious page",
+      "sample": "You realise the page was not the service’s real sign-in page.",
+      "safe": "Use a trusted device and the official service to secure the account.",
+      "risky": "Return to the suspicious page and ask for help.",
+      "lesson": "Change the exposed password through the official service and follow its account recovery steps."
+    },
+    "loss": {
+      "title": "Money has already left your account",
+      "sample": "You find a transaction you did not authorise after interacting with a stranger.",
+      "safe": "Contact your bank through its official channel and open Report Crime for reporting information.",
+      "risky": "Wait for the stranger to promise a refund.",
+      "lesson": "Prompt reporting is important. Keep the transaction reference and communications."
+    },
+    "evidence": {
+      "title": "A caller asks you to delete your chat history",
+      "sample": "You are told a refund depends on removing messages and receipts.",
+      "safe": "Keep the messages and transaction records for official reporting.",
+      "risky": "Delete the records so the refund can go through.",
+      "lesson": "Records can help you explain what happened. Share evidence only through trusted official channels."
+    }
+  },
+  "_about": {
+    "menu": "About",
+    "about": "About Kavach",
+    "credits": "Credits",
+    "license": "Licence",
+    "disclaimer": "Disclaimer",
+    "disclaimerBody": "Kavach is an independent educational tool and is not a government service. Kavach cannot verify whether a message or website is safe, file a complaint for you, or recover lost money. Use the official channels shown in Report Crime.",
+    "creator": "Creator",
+    "version": "Version",
+    "project": "An offline digital safety app for Indian households, by the JatayuOS project.",
+    "desktop": "Desktop interface",
+    "translation": "Preview translations",
+    "illustration": "Practice illustrations",
+    "licenseSummary": "Kavach software is licensed under the GNU General Public License, version 3 or any later version.",
+    "artwork": "The JatayuOS icon and branding have separate terms."
+  }
+}

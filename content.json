@@ -1,0 +1,211 @@
+{
+  "scams": [
+    {
+      "id": "kyc",
+      "emoji": "📋",
+      "severity": "high"
+    },
+    {
+      "id": "anydesk",
+      "emoji": "💻",
+      "severity": "high"
+    },
+    {
+      "id": "digital-arrest",
+      "emoji": "👮",
+      "severity": "high"
+    },
+    {
+      "id": "upi-pin",
+      "emoji": "💳",
+      "severity": "high"
+    },
+    {
+      "id": "lottery",
+      "emoji": "🎁",
+      "severity": "medium"
+    },
+    {
+      "id": "sim-swap",
+      "emoji": "📱",
+      "severity": "high"
+    },
+    {
+      "id": "fake-customer",
+      "emoji": "📞",
+      "severity": "high"
+    },
+    {
+      "id": "investment",
+      "emoji": "📈",
+      "severity": "high"
+    },
+    {
+      "id": "job",
+      "emoji": "💼",
+      "severity": "medium"
+    },
+    {
+      "id": "loan-app",
+      "emoji": "💰",
+      "severity": "high"
+    },
+    {
+      "id": "qr-code",
+      "emoji": "📷",
+      "severity": "high"
+    },
+    {
+      "id": "matrimonial",
+      "emoji": "💑",
+      "severity": "medium"
+    },
+    {
+      "id": "delivery",
+      "emoji": "📦",
+      "severity": "medium"
+    },
+    {
+      "id": "crypto",
+      "emoji": "₿",
+      "severity": "high"
+    },
+    {
+      "id": "otp-phishing",
+      "emoji": "🔑",
+      "severity": "high"
+    }
+  ],
+  "practice": [
+    [
+      "collect",
+      "payments",
+      "collect request money refund"
+    ],
+    [
+      "cashback",
+      "payments",
+      ""
+    ],
+    [
+      "receipt",
+      "payments",
+      ""
+    ],
+    [
+      "sticker",
+      "payments",
+      ""
+    ],
+    [
+      "refund",
+      "payments",
+      ""
+    ],
+    [
+      "kyc",
+      "messages",
+      "kyc ke wai si केवाईसी"
+    ],
+    [
+      "family",
+      "messages",
+      "whatsapp rishtedar रिश्तेदार"
+    ],
+    [
+      "parcel",
+      "messages",
+      ""
+    ],
+    [
+      "attach",
+      "messages",
+      ""
+    ],
+    [
+      "otp",
+      "messages",
+      ""
+    ],
+    [
+      "arrest",
+      "identity",
+      "digital arrest police डिजिटल अरेस्ट"
+    ],
+    [
+      "electric",
+      "identity",
+      "bijli bill बिजली बिल"
+    ],
+    [
+      "subsidy",
+      "identity",
+      ""
+    ],
+    [
+      "customs",
+      "identity",
+      ""
+    ],
+    [
+      "job",
+      "offers",
+      ""
+    ],
+    [
+      "tasks",
+      "offers",
+      ""
+    ],
+    [
+      "invest",
+      "offers",
+      ""
+    ],
+    [
+      "loan",
+      "offers",
+      ""
+    ],
+    [
+      "prize",
+      "offers",
+      ""
+    ],
+    [
+      "remote",
+      "devices",
+      ""
+    ],
+    [
+      "apk",
+      "devices",
+      ""
+    ],
+    [
+      "sim",
+      "devices",
+      ""
+    ],
+    [
+      "backup",
+      "devices",
+      ""
+    ],
+    [
+      "account",
+      "response",
+      ""
+    ],
+    [
+      "loss",
+      "response",
+      "paise chale gaye fraud पैसे चले गए"
+    ],
+    [
+      "evidence",
+      "response",
+      ""
+    ]
+  ]
+}
