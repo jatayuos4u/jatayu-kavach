@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: JatayuOS Kavach
+Source: https://github.com/jatayuos4u/jatayuos/tree/eb7d73a1b1b7ea55174a9caeda2ff2824ec259a3
+
+Files: *
+Copyright: 2026 Anup Kumar Yadav
+License: GPL-3.0-or-later
+ On Debian systems the complete GPL version 3 text is in
+ /usr/share/common-licenses/GPL-3.
+
+Files: kavach.svg kavach.png
+Copyright: 2026 JatayuOS
+License: JatayuOS branding
+ The original icon is included for the JatayuOS maintainer's own build.
+ Consult UPSTREAM-COPYRIGHT.md for upstream artwork and branding terms.
